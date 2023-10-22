@@ -27,7 +27,6 @@
         });
     onMount(() => {
         const colors = getThemeColors(user.user_profile.theme_colors);
-        console.log(colors);
         if (colors.primaryBlue != 0) {
             document.body.style.setProperty(
                 "--profile-gradient-primary",

@@ -1,9 +1,6 @@
-<script>
-    /**
-     * @type {string}
-     */
-    export let title;
-    export let hideLabel = false;
+<script lang="ts">
+    export let title: string;
+    export let hideLabel: boolean = false;
 </script>
 
 <div class="section">
