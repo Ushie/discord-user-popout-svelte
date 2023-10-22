@@ -1,7 +1,7 @@
 {
 	"name": "discord-user-popout-svelte",
 	"description": "A Discord user pop-out component for SvelteKit",
-	"version": "0.0.1",
+	"version": "1.0.4",
 	"author": {
 		"name": "Ushie",
 		"email": "ushiekane@gmail.com",
