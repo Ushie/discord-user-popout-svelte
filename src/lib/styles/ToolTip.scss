@@ -1,0 +1,8 @@
+@use "svooltip/styles.scss" as SvoolTip;
+
+$line-height: var(--svooltip-line-height, 16px) !default;
+
+.svooltip {
+    @extend SvoolTip !optional;
+    line-height: $line-height;
+}

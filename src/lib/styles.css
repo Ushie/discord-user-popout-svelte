@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Whitney";
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url("src/lib/assets/fonts/Whitney-Book.woff2") format("woff2"),
+        url("src/lib/assets/fonts/Whitney-Book.woff") format("woff"),
+        url("src/lib/assets/fonts/Whitney-Book.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Whitney";
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+    src: url("src/lib/assets/fonts/Whitney-Book-Italic.woff2") format("woff2"),
+        url("src/lib/assets/fonts/Whitney-Book-Italic.woff") format("woff"),
+        url("src/lib/assets/fonts/Whitney-Book-Italic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Whitney";
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    src: url("src/lib/assets/fonts/Whitney-Medium.woff2") format("woff2"),
+        url("src/lib/assets/fonts/Whitney-Medium.woff") format("woff"),
+        url("src/lib/assets/fonts/Whitney-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Whitney";
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    src: url("src/lib/assets/fonts/Whitney-Semibold.woff2") format("woff2"),
+        url("src/lib/assets/fonts/Whitney-Semibold.woff") format("woff"),
+        url("src/lib/assets/fonts/Whitney-Semibold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Whitney";
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url("src/lib/assets/fonts/Whitney-Bold.woff2") format("woff2"),
+        url("src/lib/assets/fonts/Whitney-Bold.woff") format("woff"),
+        url("src/lib/assets/fonts/Whitney-Bold.otf") format("opentype");
+}
+
+:root {
+    font-family: "Whitney", "Helvetica Neue", "Helvetica", "Arial",
+        sans-serif;
+}
+
+a {
+    color: hsl(200 calc(1 * 100%) 49.4% /1)
+}
