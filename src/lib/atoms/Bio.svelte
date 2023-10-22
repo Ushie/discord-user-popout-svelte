@@ -2,6 +2,7 @@
     import SvelteMarkdown from "svelte-markdown";
     import List from "$lib/atoms/Bio/List.svelte";
     import ListItem from "$lib/atoms/Bio/ListItem.svelte";
+    import BlockQuote from "./Bio/BlockQuote.svelte";
     import CustomEmote from "$lib/atoms/CustomEmote.svelte";
     import customEmoteToUrl from "$lib/utils/customEmoteToUrl.js";
     import keepSpaces from "$lib/utils/keepSpaces.js";
@@ -20,5 +21,6 @@
         listitem: ListItem,
         image: CustomEmote,
         paragraph: Text,
+        blockquote: BlockQuote,
     }}
 />
