@@ -14,6 +14,7 @@
     import "../styles.css";
 
     export let user: DiscordUser;
+    export let condensedConnectedAccounts: boolean = false
 
     const discordMemberSinceTimestamp = Number(
         (BigInt(user.user.id) >> BigInt(22)) + BigInt(1420070400000)
@@ -99,6 +100,7 @@
                     <ProfileSection title="connections">
                         <ConnectionsCard
                             connections={user.connected_accounts}
+                            condensed={condensedConnectedAccounts}
                         />
                     </ProfileSection>
                 {/if}

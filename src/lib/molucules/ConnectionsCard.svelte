@@ -3,6 +3,7 @@
     import Connection from "$lib/atoms/Connection.svelte";
 
     export let connections: ConnectedAccount[];
+    export let condensed: boolean = false;
 
     const connectionsUrl: ConnectionUrls = {
         paypal: {
@@ -122,9 +123,9 @@
     };
 </script>
 
-<div>
-    {#each connections as { type, id, name, verified }}
-        {#if type in connectionsUrl}
+{#if condensed}
+    <div class="connections-grid">
+        {#each connections as { type, id, name, verified }}
             <Connection
                 userName={name}
                 href={`${connectionsUrl[type].url?.baseUrl}${
@@ -133,13 +134,37 @@
                 icon={connectionsUrl[type].friendlyName}
                 label={connectionsUrl[type].friendlyName}
                 {verified}
+                {condensed}
             />
-        {/if}
-    {/each}
-</div>
+        {/each}
+    </div>
+{:else}
+    <div class="connections-card">
+        {#each connections as { type, id, name, verified }}
+            {#if type in connectionsUrl}
+                <Connection
+                    userName={name}
+                    href={`${connectionsUrl[type].url?.baseUrl}${
+                        connectionsUrl[type].url?.useId ? id : name
+                    }/`}
+                    icon={connectionsUrl[type].friendlyName}
+                    label={connectionsUrl[type].friendlyName}
+                    {verified}
+                    {condensed}
+                />
+            {/if}
+        {/each}
+    </div>
+{/if}
 
 <style>
-    div {
+    .connections-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px;
+    }
+
+    .connections-card {
         display: flex;
         flex-direction: column;
         gap: 20px;
