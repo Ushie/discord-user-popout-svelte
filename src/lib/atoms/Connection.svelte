@@ -40,7 +40,7 @@
                 {userName}
             </div>
             {#if verified}
-                <ToolTip label={"Verified Icon"}>
+                <ToolTip label={"Verified Connection"}>
                     <div class="verifiedIcon">
                         <svg
                             aria-label="Verified Connection"
