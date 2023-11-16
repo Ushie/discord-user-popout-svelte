@@ -79,7 +79,12 @@
         },
     ];
 
-    if (premiumSince != null) {
+    const userBadges = badgeMap
+        .filter(({ bit }) => flags & (1 << Number(bit)))
+        .sort((a, b) => (a.order > b.order ? 1 : -1))
+        .map(({ fileName, label }) => ({ fileName, label }));
+
+    if (premiumSince) {
         const hasNitroSince = new Date(premiumSince).toLocaleDateString(
             "en-US",
             {
@@ -89,25 +94,16 @@
             }
         );
 
-        flags = flags | (1 << 45);
-
-        badgeMap.push({
-            bit: 45,
+        userBadges.push({
             fileName: "nitro",
-            label: `Subscriber since ${hasNitroSince}`,
-            order: 13,
+            label: `Subscriber since ${hasNitroSince}`
         });
     }
-
-    const filteredBadges = badgeMap
-        .filter(({ bit }) => flags & (1 << Number(bit)))
-        .sort((a, b) => (a.order > b.order ? 1 : -1))
-        .map(({ fileName, label }) => ({ fileName, label }));
 </script>
 
-{#if filteredBadges.length != 0}
+{#if userBadges.length != 0}
     <div>
-        {#each filteredBadges as badge}
+        {#each userBadges as badge}
             <Badge fileName={badge.fileName} label={badge.label} />
         {/each}
     </div>
