@@ -36,26 +36,26 @@ pnpm add discord-user-popout-svelte
 
 1. Clone the repository
 
-```sh
-git clone https://github.com/Ushie/discord-user-popout-svelte.git && cd discord-user-popout-svelte
-```
+    ```sh
+    git clone https://github.com/Ushie/discord-user-popout-svelte.git && cd discord-user-popout-svelte
+    ```
 
 2. Install dependencies
 
-```sh
-pnpm install
-```
+    ```sh
+    pnpm install
+    ```
 
 3. Start development
 
-```sh
-pnpm run dev
+    ```sh
+    pnpm run dev
 
-# or start the server and open the app in a new browser tab
-pnpm run dev -- --open
-```
+    # or start the server and open the app in a new browser tab
+    pnpm run dev -- --open
+    ```
 
-Everything inside `src/lib` is part of your library, everything inside `src/routes` can be used as a showcase or preview app.
+    Everything inside `src/lib` is part of your library, everything inside `src/routes` can be used as a showcase or preview app.
 
 ## Building
 
