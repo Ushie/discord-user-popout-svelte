@@ -11,12 +11,15 @@
                   bannerHash.startsWith("a_") ? "gif" : "webp"
               }?size=4096`
             : null;
+
+    const headerHeight = bannerUrl ? "136" : "62";
+    const circleCutOutPosition = bannerUrl ? 125 : 51;
 </script>
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 136">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 {headerHeight}">
     <mask id={maskId}>
         <rect fill="white" x="0" y="0" width="100%" height="100%" />
-        <circle cx="58" cy="125" r="45" />
+        <circle cx="58" cy={circleCutOutPosition} r="45" />
     </mask>
     <foreignObject width="100%" height="100%" mask={`url(#${maskId})`}>
         <div
