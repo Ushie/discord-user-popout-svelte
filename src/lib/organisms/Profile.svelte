@@ -14,7 +14,7 @@
     import "../styles.css";
 
     export let user: DiscordUser;
-    export let condensedConnectedAccounts: boolean = false
+    export let condensedConnectedAccounts: boolean = false;
 
     const discordMemberSinceTimestamp = Number(
         (BigInt(user.user.id) >> BigInt(22)) + BigInt(1420070400000)
@@ -46,7 +46,6 @@
         <Banner
             userId={user.user.id}
             bannerHash={user.user.banner}
-            globalName={user.user.global_name}
             fallbackColor={user.user.banner_color}
         />
         <Avatar

@@ -1,7 +1,6 @@
 <script lang="ts">
     export let userId: string;
     export let bannerHash: string;
-    export let globalName: string;
     export let fallbackColor: string | null;
 
     const maskId = `banner-mask-${userId}`;
@@ -20,28 +19,27 @@
         <circle cx="58" cy="125" r="45" />
     </mask>
     <foreignObject width="100%" height="100%" mask={`url(#${maskId})`}>
-        {#if bannerUrl}
-            <img
-                src={bannerUrl}
-                alt={`${globalName}'s banner`}
-                draggable={false}
-            />
-        {:else}
-            <div
-                style={`background-color: ${
-                    fallbackColor
-                        ? fallbackColor
-                        : "var(--profile-gradient-secondary)"
-                }; width: 100%; height: 100%;`}
-            />
-        {/if}
+        <div
+            class={bannerUrl ? "hasCustomBanner" : "hasColorBanner"}
+            style={`${bannerUrl ? `background-image: url(${bannerUrl});` : ""}${
+                fallbackColor ? `background-color: ${fallbackColor};` : ""
+            }`}
+        />
     </foreignObject>
 </svg>
 
-<style>
-    img {
-        height: 100%;
-        width: 100%;
+<style lang="scss">
+    div {
         user-select: none;
+        background-color: var(--profile-gradient-secondary);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        &.hasCustomBanner {
+            min-height: 120px;
+        }
+        &.hasColorBanner {
+            min-height: 60px;
+        }
     }
 </style>
