@@ -53,6 +53,7 @@
             avatarHash={user.user.avatar}
             avatarDecoration={user.user.avatar_decoration_data}
             globalName={user.user.global_name}
+            hasBanner={user.user.banner !== null}
         />
         <div class="main">
             <Badges

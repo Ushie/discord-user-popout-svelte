@@ -4,6 +4,7 @@
     export let avatarHash: string;
     export let avatarDecoration: AvatarDecorationData | null;
     export let globalName: string;
+    export let hasBanner: boolean;
 
     const avatarUrl =
         avatarHash !== null
@@ -22,7 +23,7 @@
 
 <div>
     <img
-        class="avatar"
+        class="avatar {hasBanner ? 'hasCustomBanner' : 'hasColorBanner'}"
         src={avatarUrl}
         alt={`${globalName}'s avatar`}
         draggable={false}
@@ -33,15 +34,20 @@
     {/if}
 </div>
 
-<style>
+<style lang="scss">
     .avatar {
         border-radius: 100%;
         position: absolute;
         width: 80px;
         height: 80px;
-        top: 90px;
         left: 22px;
         user-select: none;
+        &.hasCustomBanner {
+            top: 90px;
+        }
+        &.hasColorBanner {
+            top: 16px;
+        }
     }
 
     .decor {
