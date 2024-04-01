@@ -14,19 +14,20 @@ pnpm add discord-user-popout-svelte
 ## Usage
 
 ```svelte
-<script>
-    import { getUser, Profile } from "discord-user-popout-svelte";
-    import { onMount } from "svelte";
-    let user = null;
+<script lang="ts">
+    import getUser from "$lib/utils/getUser.js";
+    import DiscordProfile from "../lib/organisms/Profile.svelte";
 
-    onMount(async () => {
-        user = await getUser(399862294143696897n);
-    });
+    const userPromise = getUser(399862294143696897n);
 </script>
 
-{#if user}
-    <Profile {user} />
-{/if}
+{#await userPromise}
+    <p>Loading</p>
+{:then user}
+    <DiscordProfile {user} />
+{:catch error}
+    <p>Failed to fetch user {error.message}</p>
+{/await}
 ```
 
 > [!Note]
