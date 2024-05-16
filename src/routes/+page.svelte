@@ -1,14 +1,16 @@
 <script lang="ts">
+    import type { DiscordUser } from "$lib/types.js";
     import getUser from "$lib/utils/getUser.js";
     import DiscordProfile from "../lib/organisms/Profile.svelte";
+    import { onMount } from "svelte";
 
-    const userPromise = getUser(399862294143696897n);
+    let user: DiscordUser | null = null;
+
+    onMount(async () => {
+        user = await getUser(399862294143696897n);
+    });
 </script>
 
-{#await userPromise}
-    <p>Loading</p>
-{:then user}
+{#if user}
     <DiscordProfile {user} />
-{:catch error}
-    <p>Failed to fetch user {error.message}</p>
-{/await}
+{/if}
