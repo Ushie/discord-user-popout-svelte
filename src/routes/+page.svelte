@@ -8,6 +8,7 @@
 
     onMount(async () => {
         user = await getUser(399862294143696897n);
+        console.log(user);
     });
 </script>
 

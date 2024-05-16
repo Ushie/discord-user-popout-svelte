@@ -12,6 +12,7 @@
     import getThemeColors from "$lib/utils/getThemeColors.js";
     import Tag from "$lib/atoms/Tag.svelte";
     import "../styles.css";
+    import ProfileEffects from "$lib/atoms/ProfileEffects.svelte";
 
     export let user: DiscordUser;
     export let condensedConnectedAccounts: boolean = false;
@@ -107,6 +108,7 @@
             </div>
         </div>
     </div>
+    <ProfileEffects profileEffects={null} globalName={user.user.global_name} />
 </div>
 
 <style lang="scss">
