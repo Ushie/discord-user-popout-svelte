@@ -108,7 +108,13 @@
             </div>
         </div>
     </div>
-    <ProfileEffects profileEffects={null} globalName={user.user.global_name} />
+    {#if user.user_profile.profile_effect}
+        <div class="profileEffectsWrapper">
+            <ProfileEffects
+                profileEffectId={user.user_profile.profile_effect.id}
+            />
+        </div>
+    {/if}
 </div>
 
 <style lang="scss">
@@ -125,6 +131,7 @@
         overflow: hidden;
         display: flex;
         flex-direction: column;
+
         & .overlay {
             background-color: var(--header-overlay);
             border-radius: 4px;
@@ -140,6 +147,15 @@
                     margin-top: 16px;
                 }
             }
+        }
+
+        .profileEffectsWrapper {
+            pointer-events: none;
+            transition: opacity 0.6s ease-in-out;
+        }
+
+        &:hover .profileEffectsWrapper {
+            opacity: 0.35;
         }
     }
 
