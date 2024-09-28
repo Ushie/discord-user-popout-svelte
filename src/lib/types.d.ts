@@ -34,6 +34,11 @@ export interface UserProfile {
     theme_colors: [number, number];
     popout_animation_particle_type: null;
     emoji: null;
+    profile_effect: ProfileEffect;
+}
+
+export interface ProfileEffect {
+    id: string;
 }
 
 export interface ConnectedAccountMetadata {

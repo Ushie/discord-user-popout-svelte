@@ -12,6 +12,7 @@
     import getThemeColors from "$lib/utils/getThemeColors.js";
     import Tag from "$lib/atoms/Tag.svelte";
     import "../styles.css";
+    import ProfileEffects from "$lib/atoms/ProfileEffects.svelte";
 
     export let user: DiscordUser;
     export let condensedConnectedAccounts: boolean = false;
@@ -107,6 +108,13 @@
             </div>
         </div>
     </div>
+    {#if user.user_profile.profile_effect}
+        <div class="profileEffectsWrapper">
+            <ProfileEffects
+                profileEffectId={user.user_profile.profile_effect.id}
+            />
+        </div>
+    {/if}
 </div>
 
 <style lang="scss">
@@ -123,6 +131,7 @@
         overflow: hidden;
         display: flex;
         flex-direction: column;
+
         & .overlay {
             background-color: var(--header-overlay);
             border-radius: 4px;
@@ -138,6 +147,15 @@
                     margin-top: 16px;
                 }
             }
+        }
+
+        .profileEffectsWrapper {
+            pointer-events: none;
+            transition: opacity 0.6s ease-in-out;
+        }
+
+        &:hover .profileEffectsWrapper {
+            opacity: 0.35;
         }
     }
 
