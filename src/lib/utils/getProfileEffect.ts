@@ -3153,6 +3153,1035 @@ const profileEffects = {
                 },
             ],
         },
+        {
+            "type": 1,
+            "id": "1266493591191158814",
+            "sku_id": "1266493591207940133",
+            "title": "Yoru Dimensional Rip",
+            "description": "Tear through the dimensional fabric and make your mark.",
+            "accessibilityLabel": "The hands of Yoru appear over your profile. Yoru's masked face is visible for just a second before he succeeds in tearing open the dimensional fabric of your profile and seemingly vanishes.",
+            "animationType": 2,
+            "thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-26/yoru_dimensional_rip/thumbnail.png",
+            "reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-26/yoru_dimensional_rip/reduced_motion.png",
+            "effects": [
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-30/yoru_dimensional_rip/intro.png",
+                    "loop": false,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 4235,
+                    "start": 0,
+                    "loopDelay": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 100,
+                    "randomizedSources": []
+                },
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-26/yoru_dimensional_rip/idle.png",
+                    "loop": true,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 4500,
+                    "start": 7235,
+                    "loopDelay": 5000,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 101,
+                    "randomizedSources": []
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": "1266493591233237173",
+            "sku_id": "1266493591275044903",
+            "title": "VCT Supernova",
+            "description": "Upgrade your look with a supernova of VCT 2024 style.",
+            "accessibilityLabel": "The VALORANT Champions Tour logo appears over your profile, glowing and twirling with celestial energy before exploding in a supernova-like fashion, revealing the Champions 2024 Finisher.",
+            "animationType": 2,
+            "thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-26/vct_supernova/thumbnail.png",
+            "reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-26/vct_supernova/reduced_motion.png",
+            "effects": [
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-30/vct_supernova/intro.png",
+                    "loop": false,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 4650,
+                    "start": 0,
+                    "loopDelay": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 100,
+                    "randomizedSources": []
+                },
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-26/vct_supernova/idle.png",
+                    "loop": true,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 5063,
+                    "start": 7815,
+                    "loopDelay": 4000,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 101,
+                    "randomizedSources": []
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": "1271174932528893962",
+            "sku_id": "1271174907081789524",
+            "title": "Oni's Curse",
+            "description": "An omen of ancient malevolence...",
+            "accessibilityLabel": "Out of fumes of smoke, the menacing face of an Oni demon appears and dashes towards those unfortunate enough to meet its gaze.",
+            "animationType": 2,
+            "thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-08-08/onis-curse/thumbnail.png",
+            "reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-08-08/onis-curse/reduced_motion.png",
+            "effects": [
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-08-08/onis-curse/intro.png",
+                    "loop": false,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 2800,
+                    "start": 0,
+                    "loopDelay": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 100,
+                    "randomizedSources": []
+                },
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-08-08/onis-curse/idle.png",
+                    "loop": true,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 2880,
+                    "start": 2800,
+                    "loopDelay": 3500,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 101,
+                    "randomizedSources": []
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": "1271175071263752192",
+            "sku_id": "1271175049168031815",
+            "title": "Of Ink and Steel",
+            "description": "Words in ink, deeds in steel.",
+            "accessibilityLabel": "A portrait in ink emerges on the profile, displaying a mysterious samurai warrior practicing their swordsmanship under a red sun before jumping off into the sunset.",
+            "animationType": 2,
+            "thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-08-08/of-ink-and-steel/thumbnail.png",
+            "reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-08-08/of-ink-and-steel/static.png",
+            "effects": [
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-08-08/of-ink-and-steel/intro.png",
+                    "loop": false,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 3920,
+                    "start": 0,
+                    "loopDelay": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 100,
+                    "randomizedSources": []
+                },
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-08-08/of-ink-and-steel/idle.png",
+                    "loop": true,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 4880,
+                    "start": 3920,
+                    "loopDelay": 5000,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 101,
+                    "randomizedSources": []
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": "1271175143179423868",
+            "sku_id": "1271175120437641261",
+            "title": "Sakura Katana",
+            "description": "May the blossoms guide your blade.",
+            "accessibilityLabel": "A katana with cherry blossoms dancing around its blade twirls across the profile before dashing off towards an unfortunate target.",
+            "animationType": 2,
+            "thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-08-08/sakura-katana/thumbnail.png",
+            "reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-08-08/sakura-katana/reduced_motion.png",
+            "effects": [
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-08-08/sakura-katana/intro.png",
+                    "loop": false,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 2320,
+                    "start": 0,
+                    "loopDelay": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 100,
+                    "randomizedSources": []
+                },
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-08-08/sakura-katana/idle.png",
+                    "loop": true,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 5900,
+                    "start": 2320,
+                    "loopDelay": 3500,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 101,
+                    "randomizedSources": []
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": "1277733175082094714",
+            "sku_id": "1277733175069773864",
+            "title": "Chocolate Discord-Os",
+            "description": "I know what you're thinking. But don't knock it till you try it.",
+            "accessibilityLabel": "Chocolate milk and and brightly colored Discord-Os cereal pour into the profile, filling it to the brim like a giant, delicious bowl of breakfast goodness.",
+            "animationType": 2,
+            "thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-08-26/chocolate-discordos/thumbnail.png",
+            "reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-08-26/chocolate-discordos/reducedMotion.png",
+            "effects": [
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-08-26/chocolate-discordos/intro.png",
+                    "loop": false,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 2880,
+                    "start": 0,
+                    "loopDelay": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 100,
+                    "randomizedSources": []
+                },
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-08-26/chocolate-discordos/idle.png",
+                    "loop": true,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 2880,
+                    "start": 5760,
+                    "loopDelay": 5760,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 101,
+                    "randomizedSources": []
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": "1277733175128231946",
+            "sku_id": "1277733175111717006",
+            "title": "Heartzilla (Purple)",
+            "description": "Is this what they mean when they say love hurts?",
+            "accessibilityLabel": "The yellow claws of the massive Heartzilla slashes the profile, leaving a gash that releases a flurry of tiny, purple hearts.",
+            "animationType": 1,
+            "staticFrameSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-08-26/heartzilla-purple/static.png",
+            "thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-08-26/heartzilla-purple/thumbnail.png",
+            "reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-08-26/heartzilla-purple/reducedMotion.png",
+            "effects": [
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-03/heartzilla-purple/intro.png",
+                    "loop": true,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 3750,
+                    "start": 0,
+                    "loopDelay": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 100,
+                    "randomizedSources": []
+                },
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-08-26/heartzilla-purple/idle.png",
+                    "loop": true,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 4000,
+                    "start": 3750,
+                    "loopDelay": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 101,
+                    "randomizedSources": []
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": "1282816431997718528",
+            "sku_id": "1282816431985004594",
+            "title": "Twilight Grove",
+            "description": "Step inside and see autumn's beauty unfold.",
+            "accessibilityLabel": "Lovely chrysanthemums decorate the frame of the profile, glowing softly as they shift colors from blue to fuchsia when touched by a pair of fluttering butterflies.",
+            "animationType": 2,
+            "thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/twilight-grove/thumbnail.png",
+            "reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/twilight-grove/static.png",
+            "effects": [
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/twilight-grove/intro.png",
+                    "loop": false,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 3460,
+                    "start": 0,
+                    "loopDelay": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 100,
+                    "randomizedSources": []
+                },
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/twilight-grove/idle.png",
+                    "loop": true,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 8340,
+                    "start": 2960,
+                    "loopDelay": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 101,
+                    "randomizedSources": []
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": "1285636325059465216",
+            "sku_id": "1286504131518791816",
+            "title": "Sunrise Grove",
+            "description": "Step inside and see autumn's beauty unfold.",
+            "accessibilityLabel": "Lovely peach-colored chrysanthemums decorate the frame of the profile, shining brightly in sunlight as monarch butterflies flutter around them.",
+            "animationType": 2,
+            "thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/sunrise-grove/thumbnail.png",
+            "reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/sunrise-grove/static.png",
+            "effects": [
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/sunrise-grove/intro.png",
+                    "loop": false,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 3460,
+                    "start": 0,
+                    "loopDelay": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 100,
+                    "randomizedSources": []
+                },
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/sunrise-grove/idle.png",
+                    "loop": true,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 8340,
+                    "start": 2960,
+                    "loopDelay": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 101,
+                    "randomizedSources": []
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": "1282816432018690079",
+            "sku_id": "1282816432001777794",
+            "title": "Autumn Equinox",
+            "description": "Autumn's arrival is written in the stars.",
+            "accessibilityLabel": "Gold and blue petals decorate the frame the avatar as the earth, sun, and moon appear and align in a cosmic dance that teases the arrival of autumn.",
+            "animationType": 2,
+            "thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-09/autumn-equinox/thumbnail.png",
+            "reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-09/autumn-equinox/static.png",
+            "effects": [
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-09/autumn-equinox/intro.png",
+                    "loop": false,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 3200,
+                    "start": 0,
+                    "loopDelay": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 100,
+                    "randomizedSources": []
+                },
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-09/autumn-equinox/idle.png",
+                    "loop": true,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 3100,
+                    "start": 5500,
+                    "loopDelay": 4000,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 101,
+                    "randomizedSources": []
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": "1282816432039661669",
+            "sku_id": "1282816432026943488",
+            "title": "Sun and Moon",
+            "description": "When you're staring at the sky, watching the heavens in motion... do you ever just marvel at the wonder of it all?",
+            "accessibilityLabel": "Our fiery, molten sun gracefully spins and transforms into the glowing moon across profile.",
+            "animationType": 2,
+            "thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-09/sun-and-moon/thumbnail.png",
+            "reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-09/sun-and-moon/static.png",
+            "effects": [
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-09/sun-and-moon/intro.png",
+                    "loop": false,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 4800,
+                    "start": 0,
+                    "loopDelay": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 100,
+                    "randomizedSources": []
+                },
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-09/sun-and-moon/idle.png",
+                    "loop": true,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 3150,
+                    "start": 7000,
+                    "loopDelay": 5000,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 101,
+                    "randomizedSources": []
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": "1282820582421041224",
+            "sku_id": "1282820582408192061",
+            "title": "Scarlet Fall Foliage",
+            "description": "Getting ready for sweater weather.",
+            "accessibilityLabel": "A cascade of red, autumn leaves gently sway and fall from their trees towards the earth. Shall we make the biggest leaf pile the world has ever seen?",
+            "animationType": 1,
+            "staticFrameSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-09/scarlet-fall-foliage/static.png",
+            "thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-09/scarlet-fall-foliage/thumbnail.png",
+            "reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-09/scarlet-fall-foliage/reduced_motion.png",
+            "effects": [
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-09/scarlet-fall-foliage/intro-branch.png",
+                    "loop": true,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 2960,
+                    "start": 0,
+                    "loopDelay": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 100,
+                    "randomizedSources": []
+                },
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-09/scarlet-fall-foliage/intro-leaves.png",
+                    "loop": false,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 3169,
+                    "start": 0,
+                    "loopDelay": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 101,
+                    "randomizedSources": []
+                },
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-09/scarlet-fall-foliage/loop.png",
+                    "loop": true,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 3083,
+                    "start": 5920,
+                    "loopDelay": 6166,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 102,
+                    "randomizedSources": []
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": "1282820582441746544",
+            "sku_id": "1282820582429298748",
+            "title": "Woodland Fall Foliage",
+            "description": "Getting ready for sweater weather.",
+            "accessibilityLabel": "A cascade of red, green, and yellow, autumn leaves gently sway and fall from their trees towards the earth. Shall we make the biggest leaf pile the world has ever seen?",
+            "animationType": 1,
+            "staticFrameSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-09/woodland-fall-foliage/static.png",
+            "thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-09/woodland-fall-foliage/thumbnail.png",
+            "reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-09/woodland-fall-foliage/reduced_motion.png",
+            "effects": [
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-09/woodland-fall-foliage/intro-branch.png",
+                    "loop": true,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 2960,
+                    "start": 0,
+                    "loopDelay": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 100,
+                    "randomizedSources": []
+                },
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-09/woodland-fall-foliage/intro-leaves.png",
+                    "loop": false,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 3169,
+                    "start": 0,
+                    "loopDelay": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 101,
+                    "randomizedSources": []
+                },
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-09/woodland-fall-foliage/loop.png",
+                    "loop": true,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 3083,
+                    "start": 5920,
+                    "loopDelay": 6166,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 102,
+                    "randomizedSources": []
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": "1285465421251608638",
+            "sku_id": "1285465421239291904",
+            "title": "Street Fighter 6",
+            "description": "The award winning Street Fighter 6 theme!",
+            "accessibilityLabel": "The Street Fighter 6 wordmark is splashed across the profile with a vibrant, graffiti-like art style, adding a street-savvy flair to the profile.",
+            "animationType": 2,
+            "thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-17/street-fighter-6/graffiti_thumbnail.png",
+            "reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-17/street-fighter-6/graffiti_reduced_motion.png",
+            "effects": [
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-26/street-fighter-6/graffiti_intro.png",
+                    "loop": false,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 4240,
+                    "start": 0,
+                    "loopDelay": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 100,
+                    "randomizedSources": []
+                },
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-17/street-fighter-6/graffiti_idle.png",
+                    "loop": true,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 2988,
+                    "start": 5976,
+                    "loopDelay": 5976,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 101,
+                    "randomizedSources": []
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": "1285465421276905582",
+            "sku_id": "1285465421260263464",
+            "title": "Akuma's Wrath",
+            "description": "Messatsu! Feel the power of the Satsui no hado!",
+            "accessibilityLabel": "Akuma's imposing figure appears over the profile, his back turned as dark, demonic energy radiates from him. His presence makes him a mighty ally for imposing fear and respect amongst one's profile admirers.",
+            "animationType": 2,
+            "thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-17/akuma-wrath/akuma_thumbnail.png",
+            "reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-17/akuma-wrath/akuma_reduced_motion.png",
+            "effects": [
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-17/akuma-wrath/akuma_intro.png",
+                    "loop": false,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 2988,
+                    "start": 0,
+                    "loopDelay": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 100,
+                    "randomizedSources": []
+                },
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-17/akuma-wrath/akuma_idle.png",
+                    "loop": true,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 2988,
+                    "start": 5976,
+                    "loopDelay": 5976,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 101,
+                    "randomizedSources": []
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": "1285465421297745961",
+            "sku_id": "1285465421285429258",
+            "title": "M. Bison's Return",
+            "description": "For him, it was Tuesday.",
+            "accessibilityLabel": "M. Bison hovers menacingly over the profile in his signature red military uniform, radiating purple energy with his arms crossed, eyes glowing fiercely, and his iconic devilish grin on his face.",
+            "animationType": 2,
+            "thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-17/bisons-return/bison_thumbnail.png",
+            "reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-17/bisons-return/bison_reduced_motion.png",
+            "effects": [
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-20/bisons-return/bison_intro.png",
+                    "loop": false,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 2988,
+                    "start": 0,
+                    "loopDelay": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 100,
+                    "randomizedSources": []
+                },
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-17/bisons-return/bison_idle.png",
+                    "loop": true,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 2988,
+                    "start": 5976,
+                    "loopDelay": 5976,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 101,
+                    "randomizedSources": []
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": "1285465421322911765",
+            "sku_id": "1285465421306400858",
+            "title": "Classic Street Fighter",
+            "description": "Bring it back to the retro streets!",
+            "accessibilityLabel": "Ryu\u2019s classic retro portrait from Street Fighter 2 appears over the profile, with the legendary phrase 'You must defeat Sheng Long to stand a chance' written out beneath it.",
+            "animationType": 2,
+            "thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-17/classic-street-fighter/continue_thumbnail.png",
+            "reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-17/classic-street-fighter/continue_reduced_motion.png",
+            "effects": [
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-26/classic-street-fighter/continue_intro_[1-2].png",
+                    "loop": false,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 3760,
+                    "start": 0,
+                    "loopDelay": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 100,
+                    "randomizedSources": [
+                        {
+                            "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-26/classic-street-fighter/continue_intro_1.png"
+                        },
+                        {
+                            "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-26/classic-street-fighter/continue_intro_2.png"
+                        }
+                    ]
+                },
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-17/classic-street-fighter/continue_idle.png",
+                    "loop": true,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 2988,
+                    "start": 5976,
+                    "loopDelay": 5976,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 101,
+                    "randomizedSources": []
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": "1287835633888526448",
+            "sku_id": "1287835633867559022",
+            "title": "Blazing Ghoulish Graffiti",
+            "description": "Did I scare you?",
+            "accessibilityLabel": "Graffiti-esque stars in burnt orange are strobing across the profile. But wait, you notice there's something written in the stars... \"BOO!\" Did we get ya?",
+            "animationType": 2,
+            "thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-23/blazing-ghoulish-graffiti/thumbnail.png",
+            "reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-23/blazing-ghoulish-graffiti/reduced_motion.png",
+            "effects": [
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-10-01/blazing-ghoulish-graffiti/intro.png",
+                    "loop": false,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 2573,
+                    "start": 0,
+                    "loopDelay": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 100,
+                    "randomizedSources": []
+                },
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-23/blazing-ghoulish-graffiti/idle.png",
+                    "loop": true,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 2000,
+                    "start": 5146,
+                    "loopDelay": 4000,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 101,
+                    "randomizedSources": []
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": "1287835633938858065",
+            "sku_id": "1287835633896783952",
+            "title": "Neon Ghoulish Graffiti",
+            "description": "Did I scare you?",
+            "accessibilityLabel": "Graffiti-esque stars in neon blues and yellows are strobing across the profile. But wait, you notice there's something written in the stars... \"BOO!\" Did we get ya?",
+            "animationType": 2,
+            "thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-23/neon-ghoulish-graffiti/thumbnail.png",
+            "reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-23/neon-ghoulish-graffiti/reduced_motion.png",
+            "effects": [
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-10-01/neon-ghoulish-graffiti/intro.png",
+                    "loop": false,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 2573,
+                    "start": 0,
+                    "loopDelay": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 100,
+                    "randomizedSources": []
+                },
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-23/neon-ghoulish-graffiti/idle.png",
+                    "loop": true,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 2000,
+                    "start": 5146,
+                    "loopDelay": 4000,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 101,
+                    "randomizedSources": []
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": "1287835633964023910",
+            "sku_id": "1287835633947115570",
+            "title": "Infernal Dark Omens",
+            "description": "Who keeps summoning these things?",
+            "accessibilityLabel": "A ghastly infernal portal suddenly appears, summoning three blazing, ghostly spirits to haunt your enemies - no one gets to beat you in a game and get away with it.",
+            "animationType": 2,
+            "thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-23/infernal-dark-omens/thumbnail.png",
+            "reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-23/infernal-dark-omens/reduced_motion.png",
+            "effects": [
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-23/infernal-dark-omens/intro.png",
+                    "loop": false,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 2880,
+                    "start": 0,
+                    "loopDelay": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 100,
+                    "randomizedSources": []
+                },
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-23/infernal-dark-omens/idle.png",
+                    "loop": true,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 2880,
+                    "start": 5760,
+                    "loopDelay": 5760,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 101,
+                    "randomizedSources": []
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": "1287835633997451387",
+            "sku_id": "1287835633980669972",
+            "title": "Midnight Dark Omens",
+            "description": "Who keeps summoning these things?",
+            "accessibilityLabel": "A ghastly blue portal suddenly appears, summoning three ghostly spirits to haunt your enemies - no one gets to beat you in a game and get away with it.",
+            "animationType": 2,
+            "thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-23/midnight-dark-omens/thumbnail.png",
+            "reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-23/midnight-dark-omens/reduced_motion.png",
+            "effects": [
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-23/midnight-dark-omens/intro.png",
+                    "loop": false,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 2880,
+                    "start": 0,
+                    "loopDelay": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 100,
+                    "randomizedSources": []
+                },
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-23/midnight-dark-omens/idle.png",
+                    "loop": true,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 2880,
+                    "start": 5760,
+                    "loopDelay": 5760,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 101,
+                    "randomizedSources": []
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": "1287835634026811414",
+            "sku_id": "1287835634005970994",
+            "title": "Bubblegum Zombie Slime",
+            "description": "I don't think you should touch that.",
+            "accessibilityLabel": "Out of nowhere, a glob of pink slime suddently drops from above, forming into a skull before vaporizing in the air. Did someone just curse you?",
+            "animationType": 2,
+            "thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-23/bubblegum-zombie-slime/thumbnail.png",
+            "reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-23/bubblegum-zombie-slime/reduced_motion.png",
+            "effects": [
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-23/bubblegum-zombie-slime/intro.png",
+                    "loop": false,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 2880,
+                    "start": 0,
+                    "loopDelay": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 100,
+                    "randomizedSources": []
+                },
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-23/bubblegum-zombie-slime/idle.png",
+                    "loop": true,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 2880,
+                    "start": 5760,
+                    "loopDelay": 5760,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 101,
+                    "randomizedSources": []
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": "1287835634073075726",
+            "sku_id": "1287835634035331072",
+            "title": "Midnight Zombie Slime",
+            "description": "I don't think you should touch that.",
+            "accessibilityLabel": "Out of nowhere, a glob of blue slime suddently drops from above, forming into a skull before vaporizing in the air. Did someone just curse you?",
+            "animationType": 2,
+            "thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-23/midnight-zombie-slime/thumbnail.png",
+            "reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-23/midnight-zombie-slime/reduced_motion.png",
+            "effects": [
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-23/midnight-zombie-slime/intro.png",
+                    "loop": false,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 2880,
+                    "start": 0,
+                    "loopDelay": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 100,
+                    "randomizedSources": []
+                },
+                {
+                    "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-09-23/midnight-zombie-slime/idle.png",
+                    "loop": true,
+                    "height": 880,
+                    "width": 450,
+                    "duration": 2880,
+                    "start": 5760,
+                    "loopDelay": 5760,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "zIndex": 101,
+                    "randomizedSources": []
+                }
+            ]
+        },
     ],
 };
 
